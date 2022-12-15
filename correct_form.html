@@ -12,12 +12,14 @@
   method="POST" 
   action="https://script.google.com/macros/s/AKfycbxNspzvMIBqPrajXXX_5uWIgNfAziYvVflFOQVUaGJz5KP1R69PYCvx0UEEHL2Odxw/exec"
 >
-<div class="frm"><h1>Data Collection Forms</h1>
+
+<div class="frm"><div class="line1"></div><hr><h1>Data Collection Form</h1>
     <div class="image1"></div>
 
 <div class="Crr"> 
     <label for="Name">Name</label>
     <input name="Name" type="text" placeholder="Name" required></div>
+
 
     <div class="Crr">
         <label for="Phone Number">Phone Number</label>
@@ -39,6 +41,7 @@
                     <option value="Female">Female</option>
                 </select>
             </div>
+            
 
             <div class="Crr">
                 <label for="Status" id="label-Status">Which Best Describes You</label>
@@ -48,10 +51,30 @@
                     <option value="Others">Others</option>
                 </select>
             </div>
-            
+
+            <div class="Crr"> <label>Will you recommend me for your project?</label>
+               
+                <label for="Recommend1">
+                    <input type="radio"  id="Recommend1" name="Recommend1">Yes</input>
+                </label>
+               
+                
+                    <label for="Recommend2"><input type="radio"  id="Recommend2" name="Recommend2">No</input>
+                    </label>
+
+                        <label for="Recommend3"><input type="radio"  id="Recommend3" name="Recommend3">Maybe</input>
+                        </label>     
+                        
+                        
+<div class="Crr"> Do you like the form?
+    <input name="r1(yes)" type="radio" >
+    <label for="r1(yes)">Yes</label>
+    <input name="r2(no)" type="radio" >
+    <label for="r2(no)">No</label>
+</div>
 
  <div class="Crr">
-    <button type="Submit">Submit</button>
+    <button type="Submit">Submit</button><hr>
  </div>
  
 

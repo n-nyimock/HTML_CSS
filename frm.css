@@ -3,20 +3,29 @@ html {
 }
 
 .frm {
-    height: 500px;
-    width: 350px;
-    background-color: rgb(255, 244, 240);
+    height: 600px;
+    width: 450px;
+    background-color: rgb(240, 240, 255);
     text-align: center;
     margin-left: 520px;
    
 }
 h1 {
-    color: aqua;
+    color: rgba(255, 0, 242, 0.808);
     
 }
 .Crr {
     text-align: center;
     padding-top: 30px;
+}
+.frm line1{
+    color: red;
+    background: red;
+    border-top: red;
+}
+.frm line1 {
+    background: red;
+
 }
 /* .image1 {
     background-image: url(/images/ksu-img-one.jpg);
