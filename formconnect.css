@@ -1,0 +1,43 @@
+h1 {
+    color: aqua;
+    text-align: center;
+}
+.One {
+    height: 500px;
+    width: 350px;
+    background-color: rgb(255, 244, 240);
+    color: black;
+    margin-left: 520px;
+}
+.Form-control1 {
+    text-align: center;
+    padding-top: 30px;
+}
+.Form-control2 {
+    text-align: center;
+    padding-top: 30px;
+}
+.Form-control3 {
+    text-align: center;
+    padding-top: 30px;
+}
+.Form-control4 {
+    text-align: center;
+    padding-top: 30px;
+}
+.Form-control5 {
+    text-align: center;
+    padding-top: 30px;
+}
+.Form-control6 {
+    text-align: center;
+    padding-top: 30px;
+}
+.Form-control7 {
+    text-align: center;
+    padding-top: 30px;
+}
+.Form-control8 {
+    text-align: center;
+    padding-top: 1px;
+}
